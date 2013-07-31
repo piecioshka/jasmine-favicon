@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "Jasmine Favicon",
+    "description": "Set favicon on page *http://pivotal.github.io/jasmine/*",
+    "version": "1.0",
+
+    "icons": {
+        "16": "images/jasmine-favicon.png",
+        "48": "images/jasmine-favicon-large.png",
+        "128": "images/jasmine-favicon-large.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "http://pivotal.github.io/jasmine/images/jasmine_logo.png",
+                "http://pivotal.github.io/jasmine/**"
+            ],
+            "css": [],
+            "js": ["scripts/favicon.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "images/jasmine-favicon.png"
+    ]
+}
