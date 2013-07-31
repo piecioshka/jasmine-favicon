@@ -14,10 +14,9 @@
     "content_scripts": [
         {
             "matches": [
-                "http://pivotal.github.io/jasmine/images/jasmine_logo.png",
                 "http://pivotal.github.io/jasmine/**"
             ],
-            "css": [],
+
             "js": ["scripts/favicon.js"]
         }
     ],
