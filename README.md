@@ -1,4 +1,4 @@
 jasmine-favicon
 ===============
 
-Add favicon to http://pivotal.github.io/jasmine/
+Add favicon to https://jasmine.github.io/
